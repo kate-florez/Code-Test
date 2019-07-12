@@ -1,0 +1,26 @@
+[
+    {
+      "id": "1",
+      "name": "Ashwagandha",
+      "brand": "plnt",
+      "price": "15.99"
+    },
+    {
+      "id": "2",
+      "name": "Rhodiola Rosea",
+      "brand": "the Vitamin Shoppe",
+      "price": "24.99"
+    },
+    {
+      "id": "3",
+      "name": "Theanine",
+      "brand": "Jarrow Formulas",
+      "price": "15.99"
+    },
+    {
+      "id": "4",
+      "name": "NAC",
+      "brand": "Jarrow Formulas",
+      "price": "26.99"
+    }
+  ]
