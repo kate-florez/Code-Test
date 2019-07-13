@@ -18,7 +18,7 @@ ul li {
     margin-bottom: 15px;
 }
 ul li span {
-    padding: 15%;
+    padding: 0 15%;
     /* display: block; */
 }
 #selected-list {
