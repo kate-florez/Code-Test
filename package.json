@@ -6,5 +6,10 @@
     "devDependencies": {
         "jest": "^24.8.0",
         "local-web-server": "^3.0.4"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:lebedeva-kait/code-test.git"
+    },
+    "license": "UNLICENSED"
 }
