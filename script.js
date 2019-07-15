@@ -184,7 +184,9 @@ addEvent(document, 'readystatechange', function () {
 
 });
 
-module.exports = {
-    setItem: setItem,
-    updateLocalStorage: updateLocalStorage
+if (typeof module !== 'undefined') {
+    module.exports = {
+        setItem: setItem,
+        updateLocalStorage: updateLocalStorage
+    }
 }
