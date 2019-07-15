@@ -165,7 +165,7 @@ addEvent(document, 'readystatechange', function () {
         });
     }
 
-    fetch('http://kate-l-macbook.local:8000/items.json')
+    fetch('http://127.0.0.1:8000')
     .then(function (response) {
         return response.json();
     })
