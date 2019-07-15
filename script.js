@@ -165,7 +165,7 @@ addEvent(document, 'readystatechange', function () {
         });
     }
 
-    fetch('http://127.0.0.1:8000')
+    fetch('http://localhost:8000/items.json')
     .then(function (response) {
         return response.json();
     })
