@@ -2,5 +2,9 @@
     "scripts": {
         "start": "ws",
         "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^24.8.0",
+        "local-web-server": "^3.0.4"
     }
-  }
+}
