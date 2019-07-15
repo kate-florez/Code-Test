@@ -1,10 +1,9 @@
 # Code-Test
 An eCommerce website dedicated to selling vitamins and supplements
 
-
-To start a project run
-npm install
-npm start
+To start the project run
+- npm install, npm update
+- npm start
 
 ----
 
@@ -18,6 +17,11 @@ Add by click/dragg over or remove item to/from selected list:
 - move element to the proper list
 - update local storage
 - calculate total price
+
+-----
+
+To run unit tests
+- npm run test
 
 -----
 
