@@ -1,32 +1,40 @@
 #wrapper {
     display: block;
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 10% auto;
+    color: #012169;
 }
 #unselected-list {
     float: left;
     width: 50%;
 }
+h2 {
+    text-align: center;
+}
 ul{
     list-style-type: none;
     margin-right: 15px;
     padding: 0;
+    background: #ececec;
+    min-height: 100px;
+    padding: 15px;
 }
 ul li {
     width: 100%;
-    background: lightgrey;
+    background: #f4f4f4;
     margin-bottom: 15px;
-}
-ul li span {
-    padding: 0 15%;
-    /* display: block; */
+    padding: 15px;
+    text-align: center;
 }
 #selected-list {
     float: right;
     width: 50%;
 }
-#selected-list ul {
-    background: grey;
-    min-height: 100px;
-    padding: 15px;
+i {
+    float: right;
+    font-size: 22px !important;
+}
+.total-block {
+    text-align: right;
+    margin-right: 15px;
 }

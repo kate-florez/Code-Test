@@ -138,7 +138,7 @@ addEvent(document, 'readystatechange', function () {
         
         let productContent = document.createElement('span');
         
-        productContent.innerHTML = lineObject.name;
+        productContent.innerHTML = lineObject.name + " by " + lineObject.brand + " - " + lineObject.price;
         product.appendChild(productContent);
 
         if (addFragment) {
@@ -181,8 +181,3 @@ addEvent(document, 'readystatechange', function () {
     });
 
 });
-
-function sum(a, b) {
-    return a + b;
-  }
-module.exports = sum;
